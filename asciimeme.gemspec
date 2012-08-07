@@ -14,4 +14,5 @@ Gem::Specification.new do |gem|
   gem.name          = "asciimeme"
   gem.require_paths = ["lib"]
   gem.version       = Asciimeme::VERSION
+
 end

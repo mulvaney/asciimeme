@@ -1,5 +1,7 @@
 require "asciimeme/version"
+require "asciimeme/generator"
 
 module Asciimeme
-  # Your code goes here...
+  # feels so lonely in here
 end
+
