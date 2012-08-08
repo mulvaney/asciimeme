@@ -1,6 +1,22 @@
 #!/usr/bin/env ruby
 
 require 'asciimeme'
+require 'optparse'
+
+OptionParser.new do |opts|
+  opts.banner = "Usage: asciimeme MEME TOP_LINE BOTTOM_LINE"
+
+  opts.on('--list-memes', '-l', "List available memes") do 
+    print "Available memes:\n * "
+    puts Asciimeme.memes.join("\n * ")
+    exit
+  end
+
+  opts.on_tail("-h", "--help", "Show this message") do
+    puts opts
+    exit
+  end
+end.parse!
 
 generator = Asciimeme::Generator.new(ARGV[0])
 
