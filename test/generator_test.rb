@@ -1,5 +1,4 @@
-require 'minitest/autorun'
-require 'asciimeme'
+require 'test_helper'
 require 'stringio'
 
 class GeneratorTest < MiniTest::Unit::TestCase
@@ -23,4 +22,6 @@ class GeneratorTest < MiniTest::Unit::TestCase
     @generator.write("", 'bottom line test', io)
     assert_match /bottom line test\s*$/, io.string
   end
+  
+
 end

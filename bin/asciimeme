@@ -2,5 +2,6 @@
 
 require 'asciimeme'
 
-generator = Asciimeme::Generator.new('interesting')
-generator.write(ARGV[0], ARGV[1])
+generator = Asciimeme::Generator.new(ARGV[0])
+
+generator.write(ARGV[1], ARGV[2])
