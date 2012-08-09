@@ -18,8 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
- generator = Asciimeme::Generator.new('interesting')
- generate.write("I do not always make memes", "But when I do, I use asciimeme")
+```ruby
+require 'asciimeme'
+generator = Asciimeme::Generator.new('interesting')
+generate.write("I do not always make memes",
+               "But when I do, I use asciimeme")
+```
 
 ## Contributing
 
