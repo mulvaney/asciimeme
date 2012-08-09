@@ -25,6 +25,12 @@ generate.write("I do not always make memes",
                "But when I do, I use asciimeme")
 ```
 
+Or from the command line:
+
+```
+asciimeme interesting "I do not always..." "But when I do..."
+```
+
 ## Contributing
 
 1. Fork it
