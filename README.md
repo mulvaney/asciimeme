@@ -1,6 +1,6 @@
 # Asciimeme
 
-TODO: Write a gem description
+A gem for creating ascii art memes.
 
 ## Installation
 
@@ -18,7 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+ generator = Asciimeme::Generator.new('interesting')
+ generate.write("I do not always make memes", "But when I do, I use asciimeme")
 
 ## Contributing
 
